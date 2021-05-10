@@ -1,4 +1,4 @@
-# fractal
+# Fractale
 
 ## Qu'est-ce-qu'une fractale ?
 
