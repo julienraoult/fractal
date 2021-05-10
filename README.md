@@ -39,6 +39,8 @@ http://www.les-mathematiques.net/phorum/read.php?4,749281,749294 -> @Juliens tu 
 
 "Fractale de Liapounov — Wikipédia" https://fr.m.wikipedia.org/wiki/Fractale_de_Liapounov
 
+https://hypertextbook.com/chaos/lyapunov-1/
+
 ### Implémentation
 
 https://github.com/shaunramsey/FractalExploration/blob/master/Fractals/Markus-Lyapunov%20Fractals/lyapunov_fractal_stochastic.py
