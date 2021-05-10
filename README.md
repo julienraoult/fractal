@@ -25,9 +25,11 @@ Exposant de lyapunov mesure le degré de sensibilité d un système dynamique.
 
 ## Lyapunov
 
-https://github.com/shaunramsey/FractalExploration/blob/master/Fractals/Markus-Lyapunov%20Fractals/lyapunov_fractal_stochastic.py
+### Algo
 
-https://github.com/antoinedelplace/PatternFlow/tree/master/fractals/lyapunov_fractal
+The best : "Les fractales de Lyapunov - Choux romanesco, Vache qui rit et intégrales curvilignes" http://eljjdx.canalblog.com/archives/2008/09/14/10571223.html
+
+https://www.wolframcloud.com/objects/demonstrations/LyapunovFractals-source.nb
 
 http://www.les-mathematiques.net/phorum/read.php?4,749281,749294 -> @Juliens tu peux montrer que le linéarisé du système est asymptotiquement stable au point d'équilibre (−1,0) . Tu peux donc calculer une fonction de Lyapunov V pour le linéarisé. Tu peux en plus montrer que la dérivée de cette fonction de Lyapunov (le long des solution du système) reste négative localement autour du point d'équilibre pour le système complet.
 
@@ -37,4 +39,10 @@ http://www.les-mathematiques.net/phorum/read.php?4,749281,749294 -> @Juliens tu 
 
 "Fractale de Liapounov — Wikipédia" https://fr.m.wikipedia.org/wiki/Fractale_de_Liapounov
 
-The best : "Les fractales de Lyapunov - Choux romanesco, Vache qui rit et intégrales curvilignes" http://eljjdx.canalblog.com/archives/2008/09/14/10571223.html
+### Implémentation
+
+https://github.com/shaunramsey/FractalExploration/blob/master/Fractals/Markus-Lyapunov%20Fractals/lyapunov_fractal_stochastic.py
+
+https://github.com/antoinedelplace/PatternFlow/tree/master/fractals/lyapunov_fractal
+
+
