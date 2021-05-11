@@ -41,6 +41,24 @@ http://www.les-mathematiques.net/phorum/read.php?4,749281,749294 -> @Juliens tu 
 
 https://hypertextbook.com/chaos/lyapunov-1/
 
+https://fr.wikipedia.org/wiki/Exposant_de_Liapounov
+
+eps_n = f(u_n-1 + eps_n-1) - f(u_n-1)
+
+Cette amplification varie généralement d'un pas au suivant, ce qui conduit à calculer le produit des rapports d'erreurs consécutives :
+
+eps_n / eps0 = Product(eps_i/eps_i-1) = ...
+
+En écrivant epsilon _{n}=e^{\lambda n}\epsilon _{0}}\epsilon_n = e^{\lambda n} \epsilon_0 et en passant à la limite on obtient l'exposant de Liapounov qui représente le logarithme moyen de l'accroissement 
+
+https://arxiv.org/ftp/arxiv/papers/1401/1401.3315.pdf
+
+Usually, the Lyapunov exponent or Lyapunov characteristic exponent of a
+dynamical system is a quantity that characterizes the rate of separation of
+infinitesimally close trajectories Z(t) and (t) Z0 in phase space. 
+
+Exemple en finance avec réseau de neurones : http://www.numdam.org/article/JSFS_1994__135_3_45_0.pdf
+
 ### Implémentation
 
 https://github.com/shaunramsey/FractalExploration/blob/master/Fractals/Markus-Lyapunov%20Fractals/lyapunov_fractal_stochastic.py
