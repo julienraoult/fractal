@@ -57,7 +57,8 @@ Usually, the Lyapunov exponent or Lyapunov characteristic exponent of a
 dynamical system is a quantity that characterizes the rate of separation of
 infinitesimally close trajectories Z(t) and (t) Z0 in phase space. 
 
-Exemple en finance avec réseau de neurones : http://www.numdam.org/article/JSFS_1994__135_3_45_0.pdf
+Exemple en finance avec réseau de neurones : deux mesures de Lyapunov comme signal de chaos à la bourse de Paris 
+http://www.numdam.org/article/JSFS_1994__135_3_45_0.pdf
 
 ### Implémentation
 
