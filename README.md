@@ -106,6 +106,12 @@ Learning occurs in the perceptron by changing connection weights after each piec
 https://en.wikipedia.org/wiki/Universal_approximation_theorem
 ... multilayer feed-forward architecture itself which gives neural networks the potential of being universal approximators
 
+# Misc
+
+Une thèse sur la théorie des réseaux supervisés, non supervisés, hopfield... PID ....
+
+http://thesesups.ups-tlse.fr/2287/1/2014TOU30038.pdf
+
 ### Implémentation
 
 https://github.com/shaunramsey/FractalExploration/blob/master/Fractals/Markus-Lyapunov%20Fractals/lyapunov_fractal_stochastic.py
