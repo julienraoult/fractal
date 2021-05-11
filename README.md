@@ -60,6 +60,52 @@ infinitesimally close trajectories Z(t) and (t) Z0 in phase space.
 Exemple en finance avec réseau de neurones : deux mesures de Lyapunov comme signal de chaos à la bourse de Paris 
 http://www.numdam.org/article/JSFS_1994__135_3_45_0.pdf
 
+Pour des processus ayant une composante aléatoire et une composante chaotique, les
+réseaux permettent de signaler cette dernière et donc le caractère en partie chaotique
+du processus. 
+
+ La rétro-propagation est
+une procédure qui minimise la somme des carrés des erreurs par rapport aux
+connexions. La procédure consiste à remplacer itérativement les coefficients a^ et ch
+jusqu'à atteindre une valeur minimale de la somme des carrés des erreurs.
+Il n'est donc pas besoin de définir une forme structurelle de la fonction F(*).
+Seule la fonction de transfert #(•)> qui envoie les valeurs des inputs aux cellules
+cachées, est définie et permet d'introduire la non linéarité dans la relation entre les
+entrées et les sorties.
+Dans le cas qui nous concerne, nous ne possédons comme information que la
+série univariée [xt] comme représentation temporelle d'un phénomène dont la forme
+de la fonction JF(») sous-jacente est ignorée. Le calcul de l'exposant de Lyapunov de
+cette fonction passe par la connaissance des dérivées premières. L'algorithme de Wolf
+travaille directement sur une estimation des dérivées de la fonction inconnue tandis
+qu'avec la méthode de Kaashoek et Van Dijk (1991) à l'aide des réseaux de neurones,
+on cherche d'abord à approcher la fonction F(«) afin de déduire ensuite les dérivées.
+Ainsi, ils n'obligent pas à spécifier la forme structurelle de F(-) a priori. C'est un
+avantage très important car dans le domaine de la non linéarité, il est très difficile,
+quasiment impossible même, de déterminer cette forme. Les réseaux de neurones
+dépassent cette difficulté et permettent un nouveau mode de détermination de l'exposant de Lyapunov. 
+
+La rétro-propagation est
+une procédure qui minimise la somme des carrés des erreurs par rapport aux
+connexions. La procédure consiste à remplacer itérativement les coefficients a^ et ch
+jusqu'à atteindre une valeur minimale de la somme des carrés des erreurs. 
+
+# Estimateur optimal
+
+http://www.ferdinandpiette.com/blog/2011/04/le-filtre-de-kalman-de-lestimateur-optimal-au-filtre-de-kalman/
+
+Un estimateur dont le biais est nul aura une variance toujours supérieur ou égale à ce que l'on appelle la "borne de Cramer-Rao"
+
+Le filtre de Kalman est donc une méthode d'estimation très puissante. Mais elle possède plusieurs faiblesses. Tout d'abord, le modèle doit être linéaire. Heureusement, il existe une variante de ce filtre, appelé le filtre de Kalman étendu qui permet de résoudre des problèmes non linéaire, bien que la stabilité de l'estimateur ne soit plus assurée. Une autre méthode qui, dans certains cas, est plus puissante que le filtre de Kalman est le filtre particulaire.
+
+https://en.wikipedia.org/wiki/Multilayer_perceptron
+
+In MLPs some neurons use a nonlinear activation function that was developed to model the frequency of action potentials, or firing, of biological neurons.
+
+Learning occurs in the perceptron by changing connection weights after each piece of data is processed, based on the amount of error in the output compared to the expected result. This is an example of supervised learning, and is carried out through backpropagation, a generalization of the least mean squares algorithm in the linear perceptron.
+
+https://en.wikipedia.org/wiki/Universal_approximation_theorem
+... multilayer feed-forward architecture itself which gives neural networks the potential of being universal approximators
+
 ### Implémentation
 
 https://github.com/shaunramsey/FractalExploration/blob/master/Fractals/Markus-Lyapunov%20Fractals/lyapunov_fractal_stochastic.py
