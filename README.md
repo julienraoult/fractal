@@ -1,5 +1,9 @@
 # Fractale
 
+Fractal in python
+
+![result.png](https://github.com/julienraoult/fractal/blob/main/lyapunov_ab.png)
+
 ## Qu'est-ce-qu'une fractale ?
 
 Le mot fractale vient du latin fractus qui signifie brisé, irregulié. Les fractales permettent de décrire les phénomènes naturels qui présentent une certaine irrégularité, d'où l'appellation de << géométrie de la nature et du chaos >>.
