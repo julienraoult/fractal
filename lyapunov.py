@@ -38,9 +38,7 @@ class Lyapunov:
         for i, j in itertools.product(range(step), range(step)):
             pn  = 0.5
             exp = 0
-            if log:
-                print(f'{i}', end='\r')
-                log = False
+            if log: print(f'{i}', end='\r'); log = False
             for k in range(self.nb_iters):
                 seq  = self.a[0][i] if (k%2 == 0) else self.b[0][j]
                 pn   = F_logistic(pn, seq)                                        
